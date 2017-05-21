@@ -13,6 +13,9 @@
 		C2B6BDCB1ED0C1E900A83344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B6BDC91ED0C1E900A83344 /* Main.storyboard */; };
 		C2B6BDCD1ED0C1E900A83344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6BDCC1ED0C1E900A83344 /* Assets.xcassets */; };
 		C2B6BDD01ED0C1E900A83344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B6BDCE1ED0C1E900A83344 /* LaunchScreen.storyboard */; };
+		C2C831731ED0F4F500FAC13D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C831721ED0F4F500FAC13D /* ProfileViewController.swift */; };
+		C2C831751ED0FFC200FAC13D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C831741ED0FFC200FAC13D /* SettingsTableViewController.swift */; };
+		C2C831771ED1122900FAC13D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C831761ED1122900FAC13D /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C2B6BDCC1ED0C1E900A83344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2B6BDCF1ED0C1E900A83344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2B6BDD11ED0C1E900A83344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C831721ED0F4F500FAC13D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C2C831741ED0FFC200FAC13D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		C2C831761ED1122900FAC13D /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		C2B6BDC21ED0C1E900A83344 /* TwitterSocial */ = {
 			isa = PBXGroup;
 			children = (
-				C2B6BDC31ED0C1E900A83344 /* AppDelegate.swift */,
 				C2B6BDC51ED0C1E900A83344 /* FirstViewController.swift */,
 				C2B6BDC71ED0C1E900A83344 /* SecondViewController.swift */,
 				C2B6BDC91ED0C1E900A83344 /* Main.storyboard */,
+				C2C831761ED1122900FAC13D /* EditProfileViewController.swift */,
+				C2C831741ED0FFC200FAC13D /* SettingsTableViewController.swift */,
+				C2C831721ED0F4F500FAC13D /* ProfileViewController.swift */,
 				C2B6BDCC1ED0C1E900A83344 /* Assets.xcassets */,
 				C2B6BDCE1ED0C1E900A83344 /* LaunchScreen.storyboard */,
 				C2B6BDD11ED0C1E900A83344 /* Info.plist */,
+				C2B6BDC31ED0C1E900A83344 /* AppDelegate.swift */,
 			);
 			path = TwitterSocial;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B6BDC81ED0C1E900A83344 /* SecondViewController.swift in Sources */,
+				C2C831751ED0FFC200FAC13D /* SettingsTableViewController.swift in Sources */,
+				C2C831771ED1122900FAC13D /* EditProfileViewController.swift in Sources */,
 				C2B6BDC41ED0C1E900A83344 /* AppDelegate.swift in Sources */,
+				C2C831731ED0F4F500FAC13D /* ProfileViewController.swift in Sources */,
 				C2B6BDC61ED0C1E900A83344 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,7 @@
 				C2B6BDD61ED0C1E900A83344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
