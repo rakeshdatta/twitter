@@ -13,35 +13,19 @@ class SettingsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-  
-    }
-
-   
-    @IBAction func didTapBack(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        // Dispose of any resources that can be recreated.
     }
 
     
-    @IBAction func visibilitySwitch(_ sender: UISwitch) {
-        if(sender.isOn == true){
-            print("Public")
-        }
-        else{
-            print("Friends only")
-        }
-
-    }
-    @IBAction func notificationSwitch(_ sender: UISwitch) {
-        if(sender.isOn == true){
-            print("Notification ON")
-        }
-        else{
-            print("Notification OFF")
-        }
-    }
+   
 
 }
